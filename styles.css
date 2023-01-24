@@ -1,0 +1,257 @@
+body
+{
+  color: white;
+   
+}
+p
+{
+  padding: 10px;
+  text-justify: auto;
+}
+
+
+/* barra de navegación */
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+} 
+.navbar-toggler
+{
+  background-color: darkviolet;
+}
+#mainNav .navbar-brand {
+  color: #fff;
+}
+#mainNav .navbar-nav {
+  margin-top: 1rem;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: darkviolet;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: darkviolet;
+}
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.8rem;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 0;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: darkviolet;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: darkviolet;
+  }
+
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/*Encabezado*/
+  .masthead {
+    background: linear-gradient(117deg, rgba(9,46,139,1) 0%, rgba(185,94,200,1) 100%);
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+  .masthead .masthead-avatar {
+    width: 15rem;
+  }
+
+  @media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
+
+  .page-section {
+    padding: 6rem 0;
+  }
+  .page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .page-section .page-section-heading {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+  .bg-black
+  {
+    background-color: black;
+  }
+
+  .tarjeta
+  {
+    width: 9rem;
+    box-shadow: -3px 6px 17px 0px rgba(105,94,120,0.75);
+-webkit-box-shadow: -3px 6px 17px 0px rgba(105,94,120,0.75);
+-moz-box-shadow: -3px 6px 17px 0px rgba(105,94,120,0.75);
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+  } 
+.progress-bar
+{
+  background: darkviolet;
+}
+    .card-img-top
+    {
+      width: 8rem;
+      height: 7.5rem;
+    }
+    @media (min-width: 280px)
+    {
+      .card-img-top
+    {
+      width: 6rem;
+      height: 5.5rem;
+    }
+    .tarjeta
+    {
+      width: 7rem;
+    } 
+    }
+
+    @media (min-width: 320px)
+    {
+      .card-img-top
+    {
+      width: 6rem;
+      height: 5.5rem;
+    }
+    .tarjeta
+    {
+      width: 7rem;
+    } 
+    }
+
+    @media (min-width: 360px)
+    {
+      .card-img-top
+    {
+      width: 8rem;
+      height: 7.5rem;
+    }
+    .tarjeta
+    {
+      width: 9rem;
+    }
+    }
+  
+    @media (min-width: 411px)
+    {
+      .card-img-top
+    {
+      width: 9rem;
+      height: 8.5rem;
+    }
+    .tarjeta
+    {
+      width: 10rem;
+    }
+    }
+
+    @media (min-width: 540px)
+    {
+      .card-img-top
+    {
+      width: 8rem;
+      height: 7.5rem;
+    }
+    .tarjeta
+    {
+      width: 9rem;
+    }
+    }
+
+    @media (min-width: 768px)
+    {
+      .card-img-top
+    {
+      width: 8rem;
+      height: 7.5rem;
+    }
+    .tarjeta
+    {
+      width: 9rem;
+    }
+    }
+
+    .container
+    {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+   
+    .justify-content-center {
+      justify-content: center !important;
+    }
+
+.btnp
+{
+  background:darkviolet;
+}
+
+.btnp:hover
+{
+  background-color: deeppink;
+}
+
+.rounded-4
+{
+  border-radius: 5%;
+}

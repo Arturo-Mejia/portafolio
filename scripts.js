@@ -55,28 +55,3 @@ function demo(demol)
     window.open(demol);
 }
 
-function contacto()
-{  
-    let nombre=document.getElementById("nombrecontacto").value;
-    let mensaje=document.getElementById("mensajecontacto").value;
-    const http=new XMLHttpRequest();
-    const url="registrar.php?nombre="+nombre+"&mensaje="+mensaje;
-  http.onreadystatechange= function()
-        {
-            if(this.readyState == 4 && this.status==200)
-            {   
-               
-            if(this.responseText==1)
-            { 
-                alert("Mensaje enviado");
-            } else
-            {   
-                alert(this.responseText); 
-              }
-                   
-            }
-        }  
-    
-        http.open("GET",url);
-        http.send(); 
-}

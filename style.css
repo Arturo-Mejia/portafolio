@@ -1,0 +1,205 @@
+html, 
+body {
+    height: 100%;
+}
+
+@font-face {
+  font-family: "nature";
+  src: url("/src/fonts/NatureBeauty.ttf");
+  }
+
+.glass
+{
+    /* From https://css.glass */
+background: #ffffff0e;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(0, 0, 0, 0);
+
+}
+
+
+.bg-l 
+{ 
+    background-image: url(/src/imagenes/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+   }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #00cbe6 0%, #00c6e0 51%, #0ce4a3 100%);
+  }
+  
+.div-shadow
+{
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(224,224,224,1);
+-moz-box-shadow: 0px 0px 20px 5px rgba(224,224,224,1);
+box-shadow: 0px 0px 20px 5px rgba(224,224,224,1);
+} 
+
+
+.tarjeta
+{ 
+    text-align: center;
+  width: 10rem;
+  box-shadow: -3px 6px 17px 0px #c2c2c2;
+-webkit-box-shadow: -3px 6px 17px 0px #b9b9b9;
+-moz-box-shadow: -3px 6px 17px 0px #acacac;
+  margin: 2rem;
+  padding: 10px;
+  background-color: #fff;
+} 
+
+.tarjeta:hover
+{
+    background-color: #ddfbff;
+}
+.progress-bar
+{
+background-color: #0dffa1;
+background-image: linear-gradient(96deg, #0d6eff 0%, #00f7ff 100%);
+
+
+}
+  .card-img-top
+  {
+    width: 8rem;
+    height: 7.5rem;
+  }
+
+.bg-n
+{
+    background-color: #cecece;
+}
+
+.bx
+{
+    font-size: 8rem;
+    color: #00e1ff;
+
+}
+
+.masthead {
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+  .masthead .masthead-avatar {
+    width: 15rem;
+  }
+
+
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+  } 
+  .navbar-toggler
+  {
+    background-color: #00e1ff;
+  }
+  #mainNav .navbar-brand {
+    color: rgb(0, 0, 0);
+  }
+  #mainNav .navbar-nav {
+    margin-top: 1rem;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    color: rgb(0, 0, 0);
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #00e1ff;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #fff;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color:#00e1ff;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+      margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #fff;
+      background: #00e1ff;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #fff;
+      background: #00e1ff;
+    }
+  
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+  }
+
+  .cardf
+  {
+    max-width: 20rem;
+    background: #ffffff;
+    margin: 0;
+  }
+  .page-section {
+    padding: 3rem 0;
+  }
+
+  .font-n
+  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
